@@ -285,6 +285,7 @@ p {
     display: flex;
     flex-direction: column;
     width: 76vw;
+    padding_bottom: 10px;
 }
 
 .profile_user_info_label {
