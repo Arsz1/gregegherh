@@ -22,7 +22,7 @@ body {
     display: block;
 }
 
-.profile-main {
+.profile_profile {
     display: flex;
     flex-direction: row;
     height: min-content;
