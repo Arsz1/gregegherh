@@ -30,6 +30,8 @@ body {
     max-width: 100vw;
     max-height: 100vh;
     width: 100%;
+    align-items: center;
+    background: linear-gradient(180deg, #542e01, #d6bc47f3 38.63%, #deb80b 78.79%, #542e01);
 }
 
 .menu_menu_wrapper {
@@ -39,7 +41,7 @@ body {
 }
 
 .menu_menu_student {
-    background: linear-gradient(180deg, #deb80b, #d6bc47f3 38.63%, #713f02 78.79%, #542e01);
+    background: inherit;
 }
 
 .menu_menu {
@@ -172,7 +174,7 @@ body {
     height: 42px;
     margin-bottom: 10%;
     margin-left: 110px;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 110px;
 }
 
@@ -191,21 +193,23 @@ body {
 
 .profile_content {
     height: auto;
-    margin: -10px 0 0 -50px;
+    margin: -10px 0 0 0;
     width: 100%;
     z-index: 1;
+    min-height: 100vh;
 }
 
 .profile_main {
     display: flex;
     flex-direction: column;
     background: #fff;
-    border-radius: 50px 0 0 50px;
     box-shadow: 0 4px 8px -4px #000;
     box-sizing: border-box;
-    padding: 46px 53px 0;
     width: calc(100% + 50px);
     z-index: 1;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .profile_header {
@@ -215,6 +219,7 @@ body {
     justify-content: right;
     position: absolute;
     right: 50px;
+    padding-top: 46px;
 }
 
 .status_bar_pos_author {
