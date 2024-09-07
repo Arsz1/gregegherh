@@ -316,15 +316,15 @@ p {
 }
 
 .work_status_viewing {
-    text-decoration-color: rgb(185, 185, 0);
+    color: rgb(185, 185, 0);
 }
 
 .work_status_approved {
-    text-decoration-color: rgb(0, 185, 0);
+    color: rgb(0, 185, 0);
 }
 
 .work_status_denied {
-    text-decoration-color: rgb(185, 0, 0);
+    color: rgb(185, 0, 0);
 }
 
 .buttonWithBorder_button {
