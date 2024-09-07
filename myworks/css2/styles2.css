@@ -24,7 +24,7 @@ body {
 
 .profile_profile {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: min-content;
     overflow-x: hidden;
     max-width: 100vw;
