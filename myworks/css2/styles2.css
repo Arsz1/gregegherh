@@ -288,60 +288,23 @@ p {
     padding_bottom: 10px;
 }
 
-.profile_user_info_label {
-    color: #cea606;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 16px;
-    margin: 12.5px 0 12.5px 50px;
-    text-align: left;
-    width: 79%;
+.works_table {
+    border-collapse:collapse;
+    border: 2px rgb(115, 115, 115);
+    letter-spacing: 1px;
+    font-size: 0.8em;
 }
 
-.profile_user_info_field {
-    align-items: center;
-    background: #efefef;
-    border: 2px solid #fff;
-    border-radius: 4.9vh;
-    box-sizing: border-box;
-    color: #363637;
-    display: flex;
-    flex-direction: row;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 1.25px;
-    line-height: 1.5vh;
-    margin: 0 0 5px;
-    min-height: 45px;
-    padding: 5px 26px;
-    transition: .2s;
-    width: 79%;
+.work_status_viewing {
+    text-decoration-color: rgb(185, 185, 0);
 }
 
-.profile_user_info_changeable {
-    align-items: center;
-    background: local;
-    border: 2px #fff;
-    border-radius: 0;
-    color: #363637;
-    display: flex;
-    font-size: 16px;
-    font-weight: 400;
-    height: max-content;
-    letter-spacing: 1.25px;
-    line-height: 16px;
-    margin: 0;
-    resize: none;
-    text-align: left;
-    width: 100%;
+.work_status_approved {
+    text-decoration-color: rgb(0, 185, 0);
 }
 
-.profile_user_info_field_button {
-    background: local;
-    border: 0;
-    cursor: pointer;
+.work_status_denied {
+    text-decoration-color: rgb(185, 0, 0);
 }
 
 .buttonWithBorder_button {
@@ -380,6 +343,61 @@ p {
     top: 0;
     width: 100%;
     z-index: -1;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+colgroup {
+    display: table-column-group;
+    unicode-bidi: isolate;
+}
+
+col {
+    display: table-column;
+    unicode-bidi: isolate;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(245,245,245);
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+th {
+    background-color:rgb(235,235,235);
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    unicode-bidi: isolate;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    text-align: center;
+    unicode-bidi: isolate;
+}
+
+td, th {
+    border: 1px solid rgb(180,180,180);
+    padding: 10px 20px;
 }
 
 button {
@@ -495,3 +513,4 @@ div {
     display: block;
     unicode-bidi: isolate;
 }
+
