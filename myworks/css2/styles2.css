@@ -365,6 +365,15 @@ p {
     z-index: -1;
 }
 
+.add_work {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
 table {
     border-collapse: separate;
     text-indent: initial;
